@@ -666,7 +666,7 @@ Que tú toques el código en tu equipo y quien quiera se lo lleve con
 
 ---
 
-## Bloque 14 — mikeos.duckdns.org
+## Bloque 14 — m1keos.macorredor.dev
 
 La cara pública del sistema, en el mini PC de casa.
 
@@ -721,7 +721,7 @@ mismo dominio, así que no hay infraestructura nueva que mantener.
 | 11 · Cómo se verifica | 4 | **4 ✓** |
 | 12 · Fuera de QEMU | 5 | **3** |
 | 13 · Actualizaciones | 5 | 0 |
-| 14 · mikeos.duckdns.org | 11 | 0 |
+| 14 · m1keos.macorredor.dev | 11 | 0 |
 | **Total** | **115** | **49** |
 
 ---

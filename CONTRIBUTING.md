@@ -5,7 +5,7 @@ alguien más puede aprender de él o mejorarlo.
 
 ## Antes de nada
 
-**Pruébalo.** Descarga la imagen de <https://m1keos.duckdns.org>, grábala en un
+**Pruébalo.** Descarga la imagen de <https://m1keos.macorredor.dev>, grábala en un
 USB y arráncala. La mitad de las buenas ideas salen de usar algo, no de leerlo.
 
 ## Reportar un fallo

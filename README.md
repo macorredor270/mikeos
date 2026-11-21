@@ -16,12 +16,12 @@ Kernel Linux propio · init con runit · gestor de paquetes propio · shell prop
 [![Plataforma](https://img.shields.io/badge/x86__64-UEFI-00d4ff)](docs/boot.md)
 [![Pruebas](https://img.shields.io/badge/pruebas-47%20%2B%2011%20%2B%2013%20%2B%208%20en%20verde-4cc38a)](#comprobar-que-funciona)
 
-[**Web**](https://m1keos.duckdns.org/) ·
-[Descargar](https://m1keos.duckdns.org/descargas.html) ·
-[Documentación](https://m1keos.duckdns.org/docs/) ·
-[Capturas](https://m1keos.duckdns.org/capturas/) ·
+[**Web**](https://m1keos.macorredor.dev/) ·
+[Descargar](https://m1keos.macorredor.dev/descargas.html) ·
+[Documentación](https://m1keos.macorredor.dev/docs/) ·
+[Capturas](https://m1keos.macorredor.dev/capturas/) ·
 [Cambios](docs/CAMBIOS.md) ·
-[*Read in English*](https://m1keos.duckdns.org/en/index.html)
+[*Read in English*](https://m1keos.macorredor.dev/en/index.html)
 
 </div>
 
