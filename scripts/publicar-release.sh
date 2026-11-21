@@ -21,7 +21,7 @@ set -uo pipefail
 
 RAIZ="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ISO="$RAIZ/iso/mikeos.iso"
-REPO="${MIKEOS_REPO_GITHUB:-M1KE-27/m1keos}"
+REPO="${MIKEOS_REPO_GITHUB:-macorredor270/mikeos}"
 
 verde() { printf '\033[32m%s\033[0m\n' "$*"; }
 gris()  { printf '\033[90m%s\033[0m\n' "$*"; }

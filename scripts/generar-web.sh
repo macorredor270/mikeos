@@ -62,12 +62,12 @@ fi
 N_PKG="$(find "$RAIZ/build/repo" -name '*.mpk' 2>/dev/null | wc -l | tr -d ' ')"
 # La ISO se sirve desde las releases de GitHub, no desde aquí. La etiqueta sale
 # de la última publicada, así que la web no puede quedarse enlazando una vieja.
-ETIQUETA_ISO="$(gh release list --repo "${MIKEOS_REPO_GITHUB:-M1KE-27/m1keos}" --limit 1 --json tagName -q '.[0].tagName' 2>/dev/null || true)"
+ETIQUETA_ISO="$(gh release list --repo "${MIKEOS_REPO_GITHUB:-macorredor270/mikeos}" --limit 1 --json tagName -q '.[0].tagName' 2>/dev/null || true)"
 # La versión sale del archivo VERSION de la raíz, que es la única fuente: la
 # misma que acaba en /etc/os-release y en el Centro de Control.
 VERSION="$(tr -d ' \n' < "$RAIZ/VERSION" 2>/dev/null || echo 0.0.0)"
 [ -n "$ETIQUETA_ISO" ] || ETIQUETA_ISO="v$VERSION"
-URL_ISO="https://github.com/${MIKEOS_REPO_GITHUB:-M1KE-27/m1keos}/releases/download/$ETIQUETA_ISO/mikeos.iso"
+URL_ISO="https://github.com/${MIKEOS_REPO_GITHUB:-macorredor270/mikeos}/releases/download/$ETIQUETA_ISO/mikeos.iso"
 FECHA="$(date +'%-d de %B de %Y')"
 # La misma fecha en inglés, para el pie de las páginas en ese idioma. Se calcula
 # aquí y no dentro de t(): "date" con otro idioma exige tocar LC_TIME, y hacerlo
@@ -678,7 +678,7 @@ try{var _t=localStorage.getItem("mikeos-tema");
     <a class="$([ "$act" = capturas ] && echo aqui)" href="$([ "$L" = en ] && echo "${pre}en/screenshots.html" || echo "${pre}capturas/index.html")">$(t nav.capturas)</a>
     <a class="$([ "$act" = docs ] && echo aqui)" href="${pre}docs/index.html">$(t nav.docs)</a>
     <a class="$([ "$act" = wiki ] && echo aqui)" href="${pre}wiki/index.html">$(t nav.wiki)</a>
-    <a href="https://github.com/${MIKEOS_REPO_GITHUB:-M1KE-27/m1keos}">$(t nav.codigo)</a>
+    <a href="https://github.com/${MIKEOS_REPO_GITHUB:-macorredor270/mikeos}">$(t nav.codigo)</a>
     <a class="solo-estrecho" href="$alt_href" hreflang="$otro" lang="$otro">$(t nav.idioma)</a>
   </div>
 </div></nav>
@@ -694,7 +694,7 @@ pie() {  # pie [suelto]
 <footer><div class="cont">
 $(t pie.licencia)
 $(t pie.actualizado)
-<a href="https://github.com/${MIKEOS_REPO_GITHUB:-M1KE-27/m1keos}">$(t pie.codigo)</a>
+<a href="https://github.com/${MIKEOS_REPO_GITHUB:-macorredor270/mikeos}">$(t pie.codigo)</a>
 </div></footer>
 <script>
 /* El menú. Un botón que abre y cierra un panel.
